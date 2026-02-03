@@ -1,4 +1,4 @@
-# 🧪 Sistema de Gestión de Laboratorio Clínico - Glorimar
+# 🧪 Sistema de Gestión de Laboratorio Clínico - Glorimar v3.0.1
 
 [![Node.js](https://img.shields.io/badge/Node.js-18+-green.svg)](https://nodejs.org/)
 [![Express.js](https://img.shields.io/badge/Express.js-4.18+-blue.svg)](https://expressjs.com/)
