@@ -11,6 +11,11 @@ router.post('/login', userController.login);
 router.post('/register', userController.register);
 router.post('/logout', userController.logout);
 
+// Health check endpoint
+router.get('/health', (req, res) => {
+  res.json({ status: 'ok', timestamp: new Date().toISOString() });
+});
+
 // Rutas protegidas API (requieren token JWT)
 router.get('/me', authenticateToken, userController.getProfile);
 
