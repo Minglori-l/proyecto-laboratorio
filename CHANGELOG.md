@@ -16,13 +16,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Screenshots and mockups section
 - MIT license
 - Git ignore file with comprehensive exclusions
+- Health check endpoint for monitoring
 
 ### Changed
 - Enhanced README with detailed sections and Mermaid diagrams
 - Improved project structure documentation
+- Increased minimum password length to 8 characters for security
+- Made server port configurable via environment variable
 
 ### Fixed
 - Documentation formatting and organization
+- Test users credentials in login page
 
 ## [1.0.0] - 2025-01-XX
 
