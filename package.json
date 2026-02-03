@@ -1,0 +1,33 @@
+{
+  "name": "proyecto-laboratorio-glorimar",
+  "version": "1.0.0",
+  "description": "Sistema de Gestión de Laboratorio Clínico con CRUD de Reactivos, Órdenes y Citas",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.2.3",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-session": "^1.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "method-override": "^3.0.0",
+    "mysql2": "^3.15.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "keywords": [
+    "laboratorio",
+    "gestion",
+    "node",
+    "express",
+    "ejs",
+    "crud"
+  ],
+  "author": "",
+  "license": "ISC"
+}
