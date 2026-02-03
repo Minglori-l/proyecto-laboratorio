@@ -45,7 +45,7 @@ class DBService {
     this.nextLaboratorioId = 4;
     this.nextMetodoPagoId = 4;
 
-    console.log('BASE DE DATOS EN MEMORIA INICIALIZADA (Sin MySQL)');
+    console.log('✅ Base de datos en memoria inicializada correctamente');
   }
 
   // Helper para simular delay de BD (opcional)
