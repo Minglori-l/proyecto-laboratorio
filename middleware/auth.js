@@ -1,4 +1,5 @@
 // middleware/auth.js - Middleware de autenticación y autorización
+// Soporta tanto JWT para APIs como sesiones para web
 const jwt = require('jsonwebtoken');
 
 // Middleware para verificar JWT o sesión web
