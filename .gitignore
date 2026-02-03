@@ -113,3 +113,7 @@ mockups/
 # Build artifacts
 build/
 dist/
+
+# Cookies file (sensitive data)
+*.txt
+!package-lock.json
