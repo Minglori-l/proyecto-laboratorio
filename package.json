@@ -1,6 +1,6 @@
 {
   "name": "proyecto-laboratorio-glorimar",
-  "version": "1.0.0",
+  "version": "3.0.1",
   "description": "Sistema de Gestión de Laboratorio Clínico con CRUD de Reactivos, Órdenes y Citas",
   "main": "app.js",
   "scripts": {
